@@ -26,6 +26,7 @@
     "eslint-plugin-n": "^16.6.2",
     "eslint-plugin-promise": "^6.1.1",
     "husky": "^9.0.7",
+    "lint-staged": "^15.2.0",
     "typescript": "^5.3.3",
     "vite": "^5.0.8",
     "vite-plugin-dts": "^3.7.2",
@@ -37,11 +38,6 @@
       "extends": [
         "@commitlint/config-conventional"
       ]
-    }
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -e -V"
     }
   },
   "lint-staged": {
