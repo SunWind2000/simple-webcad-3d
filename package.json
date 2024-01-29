@@ -41,7 +41,10 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      "commit-msg": "commitlint -e -V"
     }
+  },
+  "lint-staged": {
+    "*.{js,ts,jsx,tsx,md,json}": "eslint --fix"
   }
 }
