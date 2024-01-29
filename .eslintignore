@@ -1,0 +1,10 @@
+# dev config file
+commitlint.config.js
+cz-config.js
+
+# dev file
+node_modules
+
+# build file
+lib
+public
